@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Fineex</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="card_title">Gift Card</string>
+    <string name="card_tip">YOU ORDER WILL BE SHIPPED TO:</string>
+
+    <string name="button_buy">Buy</string>
+    <string name="button_check_test">OK</string>
+</resources>

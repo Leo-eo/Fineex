@@ -1,0 +1,26 @@
+<resources>
+
+
+    <declare-styleable name="CardView">
+        <attr name="bgStartColor" format="color|reference"/>
+        <attr name="bgEndColor" format="color|reference"/>
+        <attr name="buyButtonColor" format="color|reference"/>
+        <attr name="checkButtonColor" format="color|reference"/>
+
+        <attr name="cardBgColor" format="color|reference"/>
+        <attr name="bgPackColor" format="color|reference"/>
+        <attr name="priceTextColor" format="color|reference"/>
+
+
+        <attr name="cardGiftLogo" format="reference"/>
+        <attr name="cardGiftTitle" format="string|reference"/>
+        <attr name="cardGiftPrice" format="float|reference"/>
+        <attr name="buttonByText" format="string|reference"/>
+
+        <attr name="buttonCheckText" format="string|reference"/>
+
+
+    </declare-styleable>
+
+
+</resources>
