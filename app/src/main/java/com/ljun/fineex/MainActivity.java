@@ -1,11 +1,7 @@
 package com.ljun.fineex;
 
-import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Gravity;
-import android.view.WindowManager;
-import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button floatingButton = new Button(this);
+        /*Button floatingButton = new Button(this);
         floatingButton.setText("button");
         WindowManager.LayoutParams layoutParams = new WindowManager.LayoutParams(
                 WindowManager.LayoutParams.WRAP_CONTENT,
@@ -27,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
         layoutParams.type = WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY;
         layoutParams.gravity = Gravity.CENTER;
         WindowManager windowManager = getWindowManager();
-        //windowManager.addView(floatingButton, layoutParams);
+        windowManager.addView(floatingButton, layoutParams);*/
     }
 }
